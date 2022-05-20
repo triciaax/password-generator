@@ -9,8 +9,8 @@ if (passwordLength < 8 || passwordLength > 128) {
 //ask to include which character types: lowercase, uppercase, numeric, and/or special characters
 var lowercase = confirm ("Would you like to include lowercase characters (press OK for yes or cancel for no)?")
 var uppercase = confirm ("Would you like to include uppercase characters (press OK for yes or cancel for no)?")
-var numeric = confirm ("Would you like to include numeric characters (press OK for yes)?")
-var special = confirm ("Would you like to include special characters (press OK for yes)?")
+var numeric = confirm ("Would you like to include numeric characters (press OK for yes or cancel for no)?")
+var special = confirm ("Would you like to include special characters (press OK for yes or cancel for no)?")
 //one character type must be included. It should be validated and at least one character type should be selected
 if (!lowercase && !uppercase && !numeric && !special) {
     alert("You must select at least one character type.")
