@@ -20,6 +20,8 @@ The user must select a length between 8 and 128 in order for this to generate a 
 ![Preview](assets/preview.png)
 
 ## Link to Application
+---
+https://triciaax.github.io/password-generator/ 
 
 
 
